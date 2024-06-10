@@ -17,13 +17,13 @@
             <h2>Poké Balls</h2>
             <div class="price">
                 <span class="material-symbols-rounded coin">toll</span>
-                <h3>100</h3>
+                <h3 id="price">precio</h3>
             </div>
 
             <div class="quantityContainer">
-                <button> - </button>
-                <h3 class="price" id="quantity">0</h3>
-                <button> + </button>
+                <button onclick="restarItem()"> - </button>
+                <h3 class="price" id="quantity">cantidad</h3>
+                <button onclick="sumarItem()"> + </button> 
             </div>
 
         </section>
@@ -32,7 +32,7 @@
             <div class="price">
                 <h3>Total a pagar:</h3>
                 <span class="material-symbols-rounded coin">toll</span>
-                <h3>0</h3>
+                <h3 id="totalPagar">precio total</h3>
             </div>
         </section>
     
